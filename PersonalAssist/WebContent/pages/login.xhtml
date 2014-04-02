@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"> 
+
+	<h:head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title><ui:insert name="titulo">Personal Assist</ui:insert></title> <!-- (2) -->
+		<h:outputStylesheet library="css" name="bootstrap.min.css"/>
+		<h:outputStylesheet library="css" name="bootstrap-theme.min.css"/>
+	    <h:outputStylesheet library="css" name="main.css"/>
+	    <h:outputStylesheet library="css" name="datepicker.css"/>
+		<style type="text/css"><!--
+		#logotipo {
+			text-align: right; 
+			float: right;
+		} -->
+		.centralizado {
+		    margin: 0 auto;
+		    float: none;
+		}
+	    </style>
+	</h:head>
+<body>
+	<div class=" container panel well panel-primary">
+		<fieldset class="centralizado">
+			<legend>Login </legend>
+			<form id="login" method="post"
+				action="${request.contextPath}/j_spring_security_check"
+				class="form-horizontal">
+				<div class="control-group">
+					<label class="control-label" for="email">E-mail</label>
+					<div class="controls">
+						<input name='j_username' type="text" placeholder=""	class="input-lg" required="" maxlength="30" />
+					</div>
+
+					<label class="control-label" for="senha">Senha</label>
+					<div class="controls">
+						<input name='j_password' id="senha" type="password" placeholder=""	class="input-lg" required="" maxlength="30" />
+					</div>
+
+					<label class="control-label" for="entrar"></label>
+					<div class="controls">
+						<button id="entrar" type="submit" class="btn btn-primary btn-lg">
+							Entrar <span class="glyphicon glyphicon-log-in"></span>
+						</button>
+					</div>
+
+					<label class="control-label" for="entrarAutomaticamente"></label>
+					<div class="controls">
+						<input id="entrarAutomaticamente" type="checkbox" name="_spring_security_remember_me" />Lembrar-me<br />
+					</div>
+					<p></p>
+				</div>
+			</form>
+			<h:form>
+				<h:commandLink action="#{personalBean.novo()}" >
+					<f:setPropertyActionListener target="#{personalBean.destinoSalvar}"  value="login"  />
+					<span class="glyphicon glyphicon-info-sign" />Inscreva-se
+				</h:commandLink>
+			</h:form>
+			<h:panelGroup rendered="#{!empty param.login_error}">
+				<span style="font-color:red"> Erro ao efetuar o login.</span><br />
+				<br/>
+				Motivo: #{SPRING_SECURITY_LAST_EXCEPTION.message}
+			</h:panelGroup>
+			
+		</fieldset>
+	</div>
+	<script>
+		document.getElementById("login").j_username.value = "#{SPRING_SECURITY_LAST_USERNAME}";
+	</script>
+	<script	src="#{request.contextPath}/resources/js/vendor/jquery-1.10.1.min.js"></script>
+	<script	src="#{request.contextPath}/resources/js/vendor/bootstrap.min.js"></script>
+	<script	src="#{request.contextPath}/resources/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	<script	src="#{request.contextPath}/resources/js/bootstrap-datepicker.pt-BR.js"></script>
+	<script	src="#{request.contextPath}/resources/js/bootstrap-datepicker.js"></script>
+</body>
+</html>

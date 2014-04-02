@@ -1,0 +1,50 @@
+package br.com.personalAssist.enumeration;
+
+public enum GrupoMuscular {
+	
+	COSTAS(1, "costas"),
+	PEITO(2 , "peito"),
+	PERNA(3 , "perna"),
+	ONBRO(4 , "onbro"),
+	ABDOMEM(5, "abdomem");
+	
+	
+	private int idGrupo;
+	private String nome;
+	
+	public static GrupoMuscular get(int i){
+		
+	}
+	
+	private GrupoMuscular(int idGrupo, String nome) {
+		this.idGrupo = idGrupo;
+		this.nome = nome;
+	}
+
+
+
+	public int getIdGrupo() {
+		return idGrupo;
+	}
+
+
+
+	public void setIdGrupo(int idGrupo) {
+		this.idGrupo = idGrupo;
+	}
+
+
+
+	public String getNome() {
+		return nome;
+	}
+
+
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	
+	
+
+}

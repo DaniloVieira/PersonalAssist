@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout resource="/PersonalAssist/WebContent/WEB-INF/web.xml">
+ <TreeFormPage>
+  <Memento type="FileWebApp30">
+   <Memento collapsed="false" type="Deployment Descriptor"/>
+   <Memento collapsed="false" type="Context Params"/>
+   <Memento collapsed="false" type="Advanced"/>
+  </Memento>
+  <Memento type="">
+   <Memento collapsed="false" type="Properties Editor"/>
+  </Memento>
+  <Memento type="WebAppFolderServlets30">
+   <Memento collapsed="false" type="Servlets"/>
+   <Memento collapsed="false" type="Servlet Mappings"/>
+  </Memento>
+  <Memento type="WebAppWelcomFileList">
+   <Memento collapsed="false" type="Welcome Files"/>
+  </Memento>
+ </TreeFormPage>
+</Layout>

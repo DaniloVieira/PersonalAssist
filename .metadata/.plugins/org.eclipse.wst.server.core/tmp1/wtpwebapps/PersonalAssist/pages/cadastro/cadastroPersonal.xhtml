@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"> 
+
+	<h:head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title><ui:insert name="titulo">Personal Assist</ui:insert></title> <!-- (2) -->
+		<h:outputStylesheet library="css" name="bootstrap.min.css"/>
+		<h:outputStylesheet library="css" name="bootstrap-theme.min.css"/>
+	    <h:outputStylesheet library="css" name="main.css"/>
+	    <h:outputStylesheet library="css" name="datepicker.css"/>
+		
+		<style type="text/css"><!--
+		#logotipo {
+			text-align: right; 
+			float: right;
+		} -->
+    </style>	
+	
+	</h:head> 
+	<body> 
+	
+		<div class="container well">
+			<h:form id="cadastro" class="form-horizontal">
+			<h:inputText value="#{personalBean.destinoSalvar}" />
+						<fieldset >
+							<legend>Preencha seus dados</legend>
+							<div class="row">	
+								<div class="col-lg-3" >
+									<div class="control-group">
+									  <label class="control-label" for="nome">Nome</label>
+									  <div class="controls">
+									    <h:inputText id="nome" name="nome"  type="text" placeholder="" class="input-lg" required="" value="#{personalBean.personal.nome}"  maxlength="30"/>
+									  </div>
+									</div>
+									<div class="control-group">
+									  <label class="control-label" for="nascimento">Nascimento</label>
+									  <div class="controls">
+									    <h:inputText id="nascimento" name="nascimento" type="number" placeholder="" class="datepicker input-lg " required="" value="#{personalBean.personal.nascimento}">
+									    	<f:convertDateTime dateStyle="medium"/>
+									    </h:inputText>
+									  </div>
+									</div>
+									<div class="control-group">
+									  <label class="control-label" for="celular">Calular</label>
+									  <div class="controls">
+									     <h:inputText id="celular" name="celular" type="text" placeholder="" class="input-lg" required="" value="#{personalBean.personal.celular}">
+									     </h:inputText>
+									  </div>
+									</div>
+								</div>
+								
+								<div class="col-lg-3" >
+									<div class="control-group">
+									  <label class="control-label" for="email">E-mail</label>
+									  <div class="controls">
+									     <h:inputText id="email" name="email" type="text" placeholder="" class="input-lg" required="" value="#{personalBean.personal.usuario.email}"/>
+									  </div>
+									</div>
+									<div class="control-group">
+									  <label class="control-label" for="password">Senha</label>
+									  <div class="controls">
+									    <h:inputSecret id="password" name="senha"  type="text" placeholder="" class="input-lg" required="" value="#{personalBean.personal.usuario.senha}"  maxlength="30">
+									  	</h:inputSecret>
+									  </div>
+									</div>
+									<div class="control-group">
+									  <label class="control-label" for="confirma">Confirmação</label>
+									  <div class="controls">
+									    <h:inputSecret id="confirma" name="confirma" type="text" placeholder="" class="input-lg " required="" value="#{personalBean.confirmarSenha}">
+									    </h:inputSecret>
+									  </div>
+									</div>
+								</div>
+							</div>
+							<div class="control-group">
+							  <label class="control-label" for="salvar"></label>
+							  <div class="controls">
+								<h:commandLink id="salvar" name="salvar" action="#{personalBean.salvar}" class="btn btn-primary btn-lg " value="Salvar" >
+									<span class="glyphicon glyphicon-floppy-save"></span>
+								</h:commandLink>
+							  </div>
+							</div>
+						</fieldset>
+					</h:form>
+					<h:messages class="alert alert-danger"/>		
+				</div>
+	
+	<script src="#{request.contextPath}/resources/js/vendor/jquery-1.10.1.min.js"></script>
+	<script src="#{request.contextPath}/resources/js/vendor/bootstrap.min.js"></script>
+	<script src="#{request.contextPath}/resources/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	<script src="#{request.contextPath}/resources/js/bootstrap-datepicker.pt-BR.js"></script>
+	<script src="#{request.contextPath}/resources/js/bootstrap-datepicker.js"></script>
+	<script  type="text/javascript">
+	
+	  $(function() {
+		  $('.datepicker').datepicker({
+			  format: "dd/mm/yyyy",
+			   language: "pt-BR"
+			});
+
+			
+	  });
+  </script>
+	</body> 
+</html>

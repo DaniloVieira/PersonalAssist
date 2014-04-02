@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout resource="/PersonalAssit/WebContent/WEB-INF/faces-config.xml">
+ <TreeFormPage>
+  <Memento type="FacesConfig22">
+   <Memento collapsed="false" type="Factories"/>
+   <Memento collapsed="false" type="Lifecycle"/>
+   <Memento collapsed="false" type="Advanced"/>
+  </Memento>
+  <Memento type="">
+   <Memento collapsed="false" type="Properties Editor"/>
+  </Memento>
+  <Memento type="JSFNavigationCase22">
+   <Memento collapsed="false" type="Navigation Case"/>
+   <Memento collapsed="false" type="Advanced"/>
+  </Memento>
+ </TreeFormPage>
+</Layout>

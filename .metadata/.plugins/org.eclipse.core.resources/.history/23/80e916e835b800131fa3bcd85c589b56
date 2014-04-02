@@ -1,0 +1,24 @@
+package br.com.personalAssist.enumeration;
+
+public enum NivelTreinamento {
+	
+	INICIANTE (1 , "iniciante");
+
+	private int idNivel;
+	private String descricao;
+	
+	private NivelTreinamento (int idNiverl, String descicao){
+		this.idNivel = idNiverl;
+		this.descricao = descicao;
+	}
+	
+	public static GrupoMuscular get(int i){
+		
+		switch (i) {
+		case 1: return INICIANTE;
+		
+		}
+		
+		return null;
+	}
+}

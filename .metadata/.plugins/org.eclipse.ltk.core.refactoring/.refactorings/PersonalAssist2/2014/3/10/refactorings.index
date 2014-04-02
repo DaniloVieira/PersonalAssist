@@ -1,0 +1,55 @@
+1393964481875	Rename package 'br.com.personalAssist.aluno'
+1393965194431	Rename type 'Usuario'
+1393965222487	Rename type 'UsuarioDAO'
+1393965234347	Rename type 'UsuarioDAOHibernate'
+1393965244733	Rename type 'UsuarioRN'
+1393965295339	Copy compilation units
+1393965310748	Rename type 'Cliente'
+1393965322104	Rename type 'ClienteDAO'
+1393965422694	Rename type 'ClienteDAOHibernate'
+1393965628467	Rename type 'ClienteRN'
+1393966551921	Rename package 'br.com.pesrsonalAssist.personal'
+1393966583158	Delete element
+1393966900036	Delete elements
+1393966979638	Delete elements
+1393967046946	Rename type 'Usuario'
+1393967063316	Delete elements
+1393967153929	Rename method 'criarUsuarioDAO'
+1393967296528	Rename local variable 'usuarioDAO'
+1393967546768	Rename type 'Usuario'
+1393967557267	Rename type 'UsuarioDAO'
+1393967596863	Rename type 'UsuarioDAOHibernate'
+1393967607950	Rename type 'UsuarioRN'
+1393968188692	Delete element
+1393981705903	Delete element
+1393981751718	Delete element
+1393982741025	Rename type 'UsuarioBean'
+1394022072810	Move 1 resources to 'WebContent'
+1394023935437	Rename field 'Cliente'
+1394233637056	Delete element
+1394233639949	Delete element
+1394235261396	Delete element
+1394239365233	Delete elements
+1394240108691	Rename resource 'teste.xhtml'
+1394240191581	Rename resource 'index.html'
+1394240791198	Rename resource 'teste.html'
+1394242645670	Move 1 resources to 'resources'
+1394246951679	Delete elements
+1394247015917	Move 1 resources to 'WebContent'
+1394248106204	Move 1 resources to 'css'
+1394283456312	Delete element
+1394284047883	Move 1 resources to 'css'
+1394284593681	Delete element
+1394284596636	Delete element
+1394286840796	Delete element
+1394369547886	Delete element
+1394395670003	Rename package 'br.com.personalAssist.cliente'
+1394395680244	Rename type 'Cliente'
+1394395691238	Rename type 'ClienteDAO'
+1394395715611	Rename type 'ClienteDAOHibernate'
+1394395729779	Rename type 'ClienteRN'
+1394395748421	Rename resource 'cadastroCliente.xhtml'
+1394395793134	Rename type 'ClienteBean'
+1394395834851	Rename field 'cliente'
+1394400085416	Rename type 'WebAppResources'
+1394400291457	Delete element

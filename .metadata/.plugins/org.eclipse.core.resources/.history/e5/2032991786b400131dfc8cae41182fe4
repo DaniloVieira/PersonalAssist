@@ -1,0 +1,112 @@
+package br.com.personalAssist.treino;
+
+import java.util.List;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
+import javax.persistence.PrimaryKeyJoinColumn;
+
+import br.com.personalAssist.exercicio.Exercicio;
+
+@Entity
+public class DivisaoTreino {
+	
+	@Id
+	@GeneratedValue
+	@Column(name = "cod_divisao_treino")
+	private Integer codigo;
+	private char descricao;
+	@ManyToOne(cascade = CascadeType.ALL)
+	@PrimaryKeyJoinColumn(name="cod_treino")
+	private Treino treino;
+	@OneToMany
+	private List<Exercicio> listaExercicio;	
+	
+	
+	
+	
+	public DivisaoTreino( char descricao, Treino treino) {
+		this.descricao = descricao;
+		this.treino = treino;
+	}
+	public Integer getCodigo() {
+		return codigo;
+	}
+	public void setCodigo(Integer codigo) {
+		this.codigo = codigo;
+	}
+	public char getDescricao() {
+		return descricao;
+	}
+	public void setDescricao(char descricao) {
+		this.descricao = descricao;
+	}
+		
+	public Treino getTreino() {
+		return treino;
+	}
+	public void setTreino(Treino treino) {
+		this.treino = treino;
+	}
+	public List<Exercicio> getListaExercicio() {
+		return listaExercicio;
+	}
+	public void setListaExercicio(List<Exercicio> listaExercicio) {
+		this.listaExercicio = listaExercicio;
+	}
+	
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((codigo == null) ? 0 : codigo.hashCode());
+		result = prime * result + descricao;
+		result = prime * result
+				+ ((listaExercicio == null) ? 0 : listaExercicio.hashCode());
+		result = prime * result + ((treino == null) ? 0 : treino.hashCode());
+		return result;
+	}
+	
+	
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		DivisaoTreino other = (DivisaoTreino) obj;
+		if (codigo == null) {
+			if (other.codigo != null)
+				return false;
+		} else if (!codigo.equals(other.codigo))
+			return false;
+		if (descricao != other.descricao)
+			return false;
+		if (listaExercicio == null) {
+			if (other.listaExercicio != null)
+				return false;
+		} else if (!listaExercicio.equals(other.listaExercicio))
+			return false;
+		if (treino == null) {
+			if (other.treino != null)
+				return false;
+		} else if (!treino.equals(other.treino))
+			return false;
+		return true;
+	}
+	
+	
+	
+	
+	
+
+}

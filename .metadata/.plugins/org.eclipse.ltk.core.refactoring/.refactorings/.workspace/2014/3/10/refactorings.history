@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;PersonalAssist&apos; to &apos;PersonalAssist0&apos;" description="Rename resource &apos;PersonalAssist&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/PersonalAssist" name="PersonalAssist0" stamp="1394022439768" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;PersonalAssist0&apos; to &apos;PersonalAssist&apos;" description="Rename resource &apos;PersonalAssist0&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/PersonalAssist0" name="PersonalAssist" stamp="1394022658797" updateReferences="true"/>
+</session>

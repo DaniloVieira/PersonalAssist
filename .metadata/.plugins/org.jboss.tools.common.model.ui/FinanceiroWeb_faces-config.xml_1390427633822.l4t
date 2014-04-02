@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout resource="/FinanceiroWeb/WebContent/WEB-INF/faces-config.xml">
+ <TreeFormPage>
+  <Memento type="FacesConfig22">
+   <Memento collapsed="false" type="Factories"/>
+   <Memento collapsed="false" type="Lifecycle"/>
+   <Memento collapsed="false" type="Advanced"/>
+  </Memento>
+  <Memento type="%No text%">
+   <Memento collapsed="false" type="Referenced Beans"/>
+   <Memento collapsed="false" type="Managed Beans"/>
+  </Memento>
+  <Memento type="JSFReferencedBean">
+   <Memento collapsed="false" type="Referenced Bean"/>
+   <Memento collapsed="false" type="Advanced"/>
+  </Memento>
+  <Memento type="JSFManagedBean20">
+   <Memento collapsed="false" type="Managed Bean"/>
+   <Memento collapsed="false" type="Properties"/>
+   <Memento collapsed="false" type="Advanced"/>
+  </Memento>
+  <Memento type="">
+   <Memento collapsed="false" type="Properties Editor"/>
+  </Memento>
+  <Memento type="JSFNavigationCase22">
+   <Memento type="Navigation Case"/>
+   <Memento type="Advanced"/>
+  </Memento>
+ </TreeFormPage>
+</Layout>

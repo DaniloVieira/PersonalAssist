@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html class="no-js" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:c="http://java.sun.com/jstl/core"> 
+
+<h:head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title><ui:insert name="titulo">Personal Assist</ui:insert></title> <!-- (2) -->
+	<h:outputStylesheet library="css" name="bootstrap.min.css"/>
+	<h:outputStylesheet library="css" name="bootstrap-theme.min.css"/>
+    <h:outputStylesheet library="css" name="main.css"/>
+    <h:outputStylesheet library="css" name="datepicker.css"/>
+	<style type="text/css"><!--
+	#logotipo {
+		text-align: right; 
+		float: right;
+	} -->
+    </style>
+	
+
+</h:head> 
+<body> 
+	<div class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+    
+    <div class="container">
+    	<h:form id="cadastro" class="form-horizontal">
+			<fieldset >
+			
+			<!-- Form Name 
+				<legend>Cadastro de Cliente</legend>
+			-->
+				
+				<!-- Text input
+				<div class="row">	
+					<div class="col-lg-4" >
+						<div class="control-group">
+						  <label class="control-label" for="nome">Nome</label>
+						  <div class="controls">
+						    <input id="nome" name="nome" type="text" placeholder="" class="input-lg" required=""/>
+						  </div>
+						</div>
+						<div class="control-group">
+						  <label class="control-label" for="nascimento">Nascimento</label>
+						  <div class="controls">
+						    <input id="nascimento" name="nascimento" type="text" placeholder="" class="datepicker input-lg " required=""/>
+						  </div>
+						</div>
+						<div class="control-group">
+						  <label class="control-label" for="celular">Calular</label>
+						  <div class="controls">
+						    <input id="celular" name="celular" type="text" placeholder="" class="input-lg" required=""/>
+						  </div>
+						</div>
+						<div class="control-group">
+						  <label class="control-label" for="email">E-mail</label>
+						  <div class="controls">
+						    <input id="email" name="email" type="text" placeholder="" class="input-lg" required=""/>
+						  </div>
+						</div>
+						
+					</div>
+					
+				</div>
+				-->
+				<div class="control-group">
+				  <label class="control-label" for="adicionar"></label>
+				  <div class="controls">
+				     <h:commandLink action="#{testeBean.gerarLista()}"  id="adicionar" name="adicionar" value="" class="btn btn-primary btn-lg ">
+				    	<span class="glyphicon glyphicon-plus"></span>
+				    </h:commandLink>
+				  </div>
+				  Tamanho lista: #{testeBean.lista.size()}
+				</div>
+				<ui:repeat  var="listaI" value="#{testeBean.lista}">
+					<ul>
+                    <h:outputText value="Campo#{listaI}" />
+						<ui:repeat  var="listaJ" value="#{listaI}">
+							<li>
+							 	 <h:outputText value="Campo#{listaJ}" />
+							 	  <h:commandLink action="#{testeBean.henderizarHtml()}"    value="salvar" class="btn btn-primary btn-lg ">
+				    				<span class="glyphicon glyphicon-floppy-save"></span>
+				    			</h:commandLink>
+							</li>
+						</ui:repeat>
+					</ul>					    
+				</ui:repeat>
+					    <h:commandLink action="#{testeBean.henderizarHtml()}"    value="salvar" class="btn btn-primary btn-lg ">
+				    		<span class="glyphicon glyphicon-floppy-save"></span>
+				    	</h:commandLink>
+			</fieldset>
+		</h:form>
+		
+		<div>
+		
+		</div>
+
+	</div>
+
+		<script src="#{request.contextPath}/resources/js/vendor/jquery-1.10.1.min.js"></script>
+		<script src="#{request.contextPath}/resources/js/vendor/bootstrap.min.js"></script>
+		<script src="#{request.contextPath}/resources/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+		<script src="#{request.contextPath}/resources/js/bootstrap-datepicker.js"></script>
+		<script src="#{request.contextPath}/resources/js/bootstrap-datepicker.pt-BR.js"></script>
+		<script src="#{request.contextPath}/resources/js/bootstrap-datepicker.pt-BR.js"></script>
+       
+       
+       
+        <script type="text/javascript">
+			  $(function() {
+				  $('.datepicker').datepicker({
+					  format: "dd/mm/yyyy",
+					   language: "pt-BR"
+					});
+				  $('#sandbox-container .input-group.date').datepicker({
+					    format: "dd/MM/yyyy",
+					    language: "pt-BR"
+					});
+			    
+			  });
+		</script>
+
+</body> 
+
+</html>

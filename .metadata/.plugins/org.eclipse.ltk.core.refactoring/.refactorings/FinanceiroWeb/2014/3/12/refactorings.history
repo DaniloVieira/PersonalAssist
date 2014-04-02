@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Usuario.java&apos; to &apos;PersonalAssist/src/br.com.personalAssist.usuario&apos;&#x0D;&#x0A;- Original project: &apos;FinanceiroWeb&apos;&#x0D;&#x0A;- Destination element: &apos;PersonalAssist/src/br.com.personalAssist.usuario&apos;&#x0D;&#x0A;- Original element: &apos;financeiro.usuario.Usuario.java&apos;" description="Copy compilation unit" destination="=PersonalAssist/src&lt;br.com.personalAssist.usuario" element1="/src&lt;financeiro.usuario{Usuario.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1395107242570" units="1" version="1.0"/>
+</session>

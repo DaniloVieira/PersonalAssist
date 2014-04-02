@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	  xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets"> <!-- (1) -->
+<h:head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title><ui:insert name="titulo">Personal Assist</ui:insert></title> <!-- (2) -->
+	<h:outputStylesheet library="css" name="bootstrap.min.css"/>
+	<h:outputStylesheet library="css" name="bootstrap-theme.min.css"/>
+    <h:outputStylesheet library="css" name="main.css"/>
+    <h:outputStylesheet library="css" name="datepicker.css"/>
+    <h:outputStylesheet library="css" name="custom.css"/>
+    <h:outputStylesheet library="css" name="bootstrap-select.css"/>
+	
+	<style type="text/css"><!--
+	#logotipo {
+		text-align: right; 
+		float: right;
+	} -->
+	
+    </style>
+</h:head>
+<h:body>
+	<div id="container">
+
+		<div class="navbar navbar-inverse navbar-static-top">
+			<div class="container">
+				<h:form>
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+								class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#"><h:graphicImage library="img" name="logo.jpg" height="50" width="100" /></a>
+						
+					</div>
+					<div class="navbar-collapse collapse">
+						<ul class="nav navbar-nav">
+							<li class="active"><h:link  outcome="/pages/admin/inicio" value="Inicio"/></li>
+							<li><a href="#about">Sobre</a></li>
+							<li><a href="#contact">Contact</a></li>
+							<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu<b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li><h:link  outcome="/pages/admin/listagemAlunos" value="Pesquisar Alunos"/></li>
+									<li><h:commandLink value="Cadastro Aluno" action="#{alunoBean.novo()}" /></li>
+									<li><h:commandLink value="Cadastro Treino" action="#{treinoBean.novo()}" /></li>
+									<li><a href="#">Avaliação Fisica</a></li>
+									<li><a href="#">Anamnese</a></li>
+									<li><a href="#">Desenpenho</a></li>
+									<li class="divider"></li>
+									<li class="dropdown-header">Nav header</li>
+									<li><a href="#">Separated link</a></li>
+									<li><a href="#">One more separated link</a></li>
+								</ul></li>
+						</ul>
+	
+					</div>
+				</h:form>
+				<!--/.navbar-collapse -->
+			</div>
+		</div>
+		<div id="cabecalhoAluno"  class="container">
+			<ui:insert name="cabecalhoAluno" >
+				<div   class=" well well-sm">
+					<h:outputLabel id="dadosAluno" value="#{contextoBean.alunoAtivo != null ? contextoBean.alunoAtivo.nome : 'Nenhum Selcionado'}" />
+				</div>
+			</ui:insert>
+		
+		</div>
+		<div id="corpo" class="container">
+			<ui:insert name="corpo" />
+		</div>
+	</div>
+
+	<script src="#{request.contextPath}/resources/js/vendor/jquery-1.10.1.min.js"></script>
+	<script src="#{request.contextPath}/resources/js/vendor/bootstrap.min.js"></script>
+	<script src="#{request.contextPath}/resources/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	<script src="#{request.contextPath}/resources/js/bootstrap-datepicker.pt-BR.js"></script>
+	<script src="#{request.contextPath}/resources/js/bootstrap-datepicker.js"></script>
+	<script src="#{request.contextPath}/resources/js/bootstrap-select.js"></script>
+	<script  type="text/javascript">
+	
+	  $(function() {
+		  $('.datepicker').datepicker({
+			  format: "dd/mm/yyyy",
+			   language: "pt-BR"
+			});
+
+		  $('.selectpicker').selectpicker();
+
+			
+	  });
+  </script>
+</h:body>
+</html>

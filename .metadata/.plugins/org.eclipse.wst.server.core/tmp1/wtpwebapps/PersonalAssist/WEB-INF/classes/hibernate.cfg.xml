@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+ <session-factory name="">
+  <!-- Configuração da conexão com o banco MySQL e dialeto
+   -->
+  		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="connection.url">jdbc:mysql://localhost/personalassist</property>
+		<property name="connection.username">root</property>
+		<property name="connection.password">root</property> 
+  <!-- 
+  <property name="connection.datasource">java:/comp/env/jdbc/PersonalAssistDB</property>
+		-->
+		
+  <!-- Usando as configurações do C3PO para pool de conexões
+ 	
+		<property name="c3po.min_size">5</property>
+		<property name="c3po.max_size">20</property>
+		<property name="c3po.timeout">300</property>
+		<property name="c3po.max_statements">50</property>
+		<property name="c3po.idle_test_period">3000</property>
+ -->
+  <property name="show_sql">false</property>
+  <property name="format_sql">false</property>
+  <property name="generate_statistics">false</property>
+  <property name="use_sql_comments">false</property>
+  <property name="current_session_context_class">thread</property>
+  <property name="hibernate.hbm2ddl.auto">update</property>
+  <!-- Mapeando classes 
+ <mapping resource="com/livro/capitulo3/crudxml/Contato.hbm.xml"/> -->
+  <mapping class="br.com.personalAssist.usuario.Usuario"/>
+  <mapping class="br.com.personalAssist.aluno.Aluno"/>
+  <mapping class="br.com.personalAssist.personal.Personal"/>
+  <mapping class="br.com.personalAssist.treino.Treino"/>
+  <mapping class="br.com.personalAssist.treino.DivisaoTreino"/>
+  <mapping class="br.com.personalAssist.exercicio.Exercicio"/>
+ </session-factory>
+</hibernate-configuration>

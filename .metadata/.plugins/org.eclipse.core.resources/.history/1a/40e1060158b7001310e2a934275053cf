@@ -1,0 +1,58 @@
+package br.com.personalAssist.exercicio;
+
+import java.util.List;
+
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import br.com.personalAssist.personal.Personal;
+import br.com.personalAssist.treino.Treino;
+
+public class ExercicioDAOHibernate implements ExercicioDAO {
+
+	@Autowired
+	private SessionFactory	sessionFactory;
+	
+	@Override
+	public void salvar(Treino treino) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void atualizar(Treino treino) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void excluir(Treino treino) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Treino carregar(Integer codigo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Exercicio> listarExercicioPorGrupoMuscular(String grupo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Treino buscarPorLogin(String login) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Personal> listar() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

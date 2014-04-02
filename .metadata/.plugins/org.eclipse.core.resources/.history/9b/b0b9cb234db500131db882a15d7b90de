@@ -1,0 +1,74 @@
+package br.com.personalAssist.teste;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.RequestScoped;
+import javax.faces.bean.SessionScoped;
+
+
+@ManagedBean(name="testeBean")
+@SessionScoped
+public class TesteBean {
+	
+	private List<String> lista = null;
+	
+	private String tag ;
+	
+	
+	public String gerarLista(){
+		
+		this.lista = new ArrayList<String>();
+		
+		lista.add("item1");
+		lista.add("item2");
+		lista.add("item3");
+		lista.add("item4");
+		lista.add("item5");
+		
+		
+		return "";
+	}
+	
+	public String incrementarLista(){
+			this.lista = this.lista == null ? new ArrayList<String>() : this.lista;
+			this.lista.add("item"+(lista.size()+1));
+		return "";
+	}
+	
+	
+	public void henderizarHtml(){
+		for(int i =0 ; i < 10 ; i++){
+			tag = "<"
+		}
+		
+		
+		
+	}
+	
+	
+
+
+	public String getTag() {
+		return tag;
+	}
+
+	public void setTag(String tag) {
+		this.tag = tag;
+	}
+
+	public List<String> getLista() {
+		return lista;
+	}
+
+
+	public void setLista(List<String> lista) {
+		this.lista = lista;
+	}
+
+	
+	
+	
+	
+}

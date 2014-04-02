@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"> 
+
+	<h:head>
+	</h:head> 
+	<h:body> 	
+		
+		<h:form>
+			Cadastro Aluno:<h:commandLink action="#{alunoBean.novo}" value="novo"/><br />
+			Cadastro Personal:<h:commandLink action="#{personalBean.novo()}" value=""><span class="glyphicon glyphicon-info-sign" />Inscreva-se</h:commandLink>
+		</h:form>
+			inicio1:<h:link  outcome="/pages/admin/inicio" value="Inicio"></h:link><br/>
+			pesquisa:<h:link  outcome="/pages/admin/listatagemAlunos" value="Pesquisa"></h:link><br/>
+			inicio2:<a href="#{request.contextPath}/pages/admin/inicio.xhtml" >Inicio</a>
+	
+	</h:body> 
+</html>

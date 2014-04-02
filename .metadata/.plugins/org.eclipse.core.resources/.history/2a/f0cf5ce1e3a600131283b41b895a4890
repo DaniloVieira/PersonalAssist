@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+
+	<ui:composition template="/templates/interna.xhtml">
+		<ui:define name="titulo">
+		    	Cadastro de Cliente
+		</ui:define>
+		<ui:define name="corpo">
+		<br/>
+		<br/>
+			<div class="container well panel panel-primary">
+				<div class="panel-heading">
+					<h3 class="panel-title">Cadastro de Cliente</h3>
+				</div>
+				<div class="panel-body">
+					<h:form id="cadastro" class="form-horizontal">
+					<h:inputHidden value="#{clienteBean.cliente.codigo}"/>
+					<h:inputHidden value="#{clienteBean.cliente.ativo}"/>
+					<h:panelGrid columns="2">
+						
+						<h:outputLabel value="Nome:" for="nome" class="control-label"/>
+						<h:inputText id="nome" label="Nome"
+							value="#{clienteBean.cliente.nome}"  maxlength="30"
+							required="true" requiredMessage="Você não tem nome?"
+							placeholder="nome" class="input-lg">
+							<f:validateLength minimum="10" maximum="30" />
+						</h:inputText>
+					
+						<h:outputLabel value="Data Nascimento:" for="data" class="control-label"/>
+						<h:inputText id="data" label="Data Nascimento"
+							value="#{clienteBean.cliente.nascimento}"  maxlength="10"
+							required="true"
+							placeholder="nome" class="input-lg datepicker" >
+							<f:convertDateTime dateStyle="medium" />
+						</h:inputText>
+						
+						<h:outputLabel value="Celular:" for="celular" />
+						<h:inputText id="celular" label="Celular"
+							value="#{clienteBean.cliente.celular}" class="input-lg" />
+							
+	
+						<h:outputLabel value="e-Mail:" for="email" />
+						<h:panelGroup>
+							<h:inputText id="email" label="e-Mail"
+								value="#{clienteBean.cliente.email}"  maxlength="50"
+								required="true" validatorMessage="e-Mail inválido" class="input-lg">
+								<f:validateRegex pattern="[a-zA-Z0-9\-\_\.]+@[a-zA-Z0-9\-\_\.]+" />
+							</h:inputText>
+							<h:message for="email" class="alert-danger"/>
+						</h:panelGroup>
+	
+						<h:commandButton action="#{clienteBean.salvar}" class="btn btn-success btn-lg" value="Salvar" >
+						</h:commandButton>
+						
+					</h:panelGrid>
+	
+					</h:form>
+				</div>
+				<h:messages class="alert alert-danger"/>
+			</div>
+	
+		</ui:define>
+	</ui:composition>
+
+</html>

@@ -1,0 +1,6 @@
+INDEX VERSION 1.3+C:\Users\Danilo\Documents\GitHub\gitWorkspace\PersonalAssist\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2705334234.index
+2329759059.index
+4045638112.index
+1950574364.index
+3594708461.index

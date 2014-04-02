@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.livro.capitulo3.crudXml&apos; to &apos;com.livro.capitulo3.crudxml&apos;&#x0D;&#x0A;- Original project: &apos;ExemplosHibernate&apos;&#x0D;&#x0A;- Original element: &apos;ExemplosHibernate/src/com.livro.capitulo3.crudXml&apos;&#x0D;&#x0A;- Renamed element: &apos;ExemplosHibernate/src/com.livro.capitulo3.crudxml&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.livro.capitulo3.crudXml&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.livro.capitulo3.crudXml" name="com.livro.capitulo3.crudxml" qualified="false" references="true" stamp="1391367991065" textual="false" version="1.0"/>
+</session>

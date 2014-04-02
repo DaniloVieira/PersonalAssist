@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS model-entity="JSFProcess">
+ <PROCESS-ITEM NAME="rules:#index.xhtml" PATH="/index.xhtml"
+  SHAPE="256,96,50,57" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#index.xhtml:0" NAME="item"
+   PATH="/index.xhtml" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="novoCliente::#pages#cadastro#cadastroAluno.xhtml" NAME="output"
+    PATH="/pages/cadastro/cadastroAluno.xhtml"
+    TARGET="rules:#pages#cadastro#cadastroAluno.xhtml"
+    TITLE="novoCliente" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT ID="inicio::#pages#admin#inicio.xhtml"
+    NAME="output1" PATH="/pages/admin/inicio.xhtml"
+    TARGET="rules:#pages#admin#inicio.xhtml" TITLE="inicio" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#cadastro#cadastroAluno.xhtml"
+  PATH="/pages/cadastro/cadastroAluno.xhtml" SHAPE="592,104,50,25"
+  model-entity="JSFProcessGroup" persistent="true"/>
+ <PROCESS-ITEM NAME="rules:#pages#admin#inicio.xhtml"
+  PATH="/pages/admin/inicio.xhtml" SHAPE="592,144,50,25"
+  model-entity="JSFProcessGroup" persistent="true"/>
+ <PROCESS-ITEM NAME="rules:#pages#cadastro#cadastroPersonal.xhtml"
+  PATH="/pages/cadastro/cadastroPersonal.xhtml" SHAPE="232,474,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#cadastro#cadastroPersonal.xhtml:0"
+   NAME="item" PATH="/pages/cadastro/cadastroPersonal.xhtml" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="login::#pages#login.xhtml" NAME="output"
+    PATH="/pages/login.xhtml" TARGET="rules:#pages#login.xhtml"
+    TITLE="login" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#login.xhtml" PATH="/pages/login.xhtml"
+  SHAPE="494,472,0,0" model-entity="JSFProcessGroup" persistent="true"/>
+</PROCESS>

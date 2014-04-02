@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+
+	<ui:composition template="/templates/interna.xhtml">
+	
+		<ui:define name="corpo">
+			<div class="container well panel panel-primary">
+				<div class="panel-body" >
+				    <h:form id="pesquisa">
+				    	<div class="input-group input-group-lg">
+  							<h:inputText  type="text" class="form-control" placeholder="Username" value="#{alunoBean.nomePesquisa}"/>
+  							<h:commandLink id="inputBusca" action="#{alunoBean.listarAlunos()}" class="input-group-addon glyphicon glyphicon-search btn">
+							<f:ajax execute="@form" render=":listagem" >
+							</f:ajax>
+						</h:commandLink>
+						</div>
+						
+				    </h:form>
+				
+					<h:form id="listagem">
+						<h:dataTable value="#{alunoBean.lista}" var="aluno"	rendered="#{!empty alunoBean.lista}" styleClass="table table-striped table-bordered " headerClass="dataTableHeader"  >
+							<h:column>
+								<f:facet name="header">Nome</f:facet>
+								<h:commandLink >
+									<h:outputText value="#{aluno.nome}" />
+									<f:ajax execute="@this"  render=":dadosAluno" />
+									<f:setPropertyActionListener target="#{contextoBean.alunoAtivo}" value="#{aluno}" />
+								</h:commandLink>
+							</h:column>							
+							<h:column>
+								<f:facet name="header">Data Nascimento</f:facet>
+								<h:outputText value="#{aluno.nascimento}">
+									<f:convertDateTime dateStyle="medium" />
+								</h:outputText>
+							</h:column>
+							<h:column>
+								<f:facet name="header">Ativo </f:facet>
+								<span class="#{aluno.ativo ? 'glyphicon glyphicon-ok-circle' : 'glyphicon glyphicon-ban-circle'}"/>
+							</h:column>
+							<h:column>
+								<f:facet name="header">Remover </f:facet>
+								<span class="glyphicon glyphicon-remove"/>
+							</h:column>
+						</h:dataTable>
+						
+					</h:form>
+				</div>
+			</div>
+		</ui:define>
+	</ui:composition>
+</html>

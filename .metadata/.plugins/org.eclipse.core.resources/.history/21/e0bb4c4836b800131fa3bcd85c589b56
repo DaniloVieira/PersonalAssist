@@ -1,0 +1,27 @@
+package br.com.personalAssist.enumeration;
+
+public enum NivelTreinamento {
+	
+	INICIANTE (1 , "iniciante"),
+	INTERMEDIARIO (2 , "intermediário"),
+	AVANCADO (3 , "avançado"),
+	ATLETA (4 , "atleta");
+
+	private int idNivel;
+	private String descricao;
+	
+	private NivelTreinamento (int idNiverl, String descicao){
+		this.idNivel = idNiverl;
+		this.descricao = descicao;
+	}
+	
+	public static NivelTreinamento get(int i){
+		
+		switch (i) {
+		case 1: return INICIANTE;
+		
+		}
+		
+		return null;
+	}
+}

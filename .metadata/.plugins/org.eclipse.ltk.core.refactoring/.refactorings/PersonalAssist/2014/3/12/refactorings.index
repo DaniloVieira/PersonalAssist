@@ -1,0 +1,29 @@
+1395508070682	Rename package 'br.com.personalAssit.teste'
+1395508173149	Rename package 'br.com.personalAssist.treinamento'
+1395513381906	Rename package 'br.com.personalAssist.execicio'
+1395542311888	Move 'bootstrap-select.js' to 'vendor'
+1395542320905	Move 'bootstrap-select.js' to 'js'
+1395586540144	Move 1 resources to 'WEB-INF'
+1395588804207	Move file
+1395588851734	Move files
+1395589574074	Delete element
+1395589662944	Copy file
+1395590090008	Delete element
+1395591204103	Delete element
+1395591684528	Delete elements
+1395591776803	Delete elements
+1395591805153	Delete element
+1395592881047	Delete element
+1395593177082	Delete element
+1395593401128	Delete element
+1395593406412	Delete element
+1395594275374	Delete elements
+1395594324658	Delete elements
+1395594604037	Delete element
+1395594612419	Delete element
+1395594626769	Delete element
+1395594634271	Delete element
+1395597931583	Rename field 'usuarioDAO'
+1395610678495	Rename field 'session'
+1395610865852	Rename field 'ClienteRN'
+1395614031188	Rename field 'session'
