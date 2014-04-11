@@ -299,11 +299,11 @@
    <linked-el length="35" name="%12" offset="4530" path="%3"/>
    <linked-el length="37" name="%12" offset="5013" path="%3"/>
    <linked-el length="33" name="%12" offset="4391" path="%3"/>
-   <linked-el length="33" name="%12" offset="3051" path="%3"/>
    <linked-el length="37" name="%12" offset="5208" path="%3"/>
+   <linked-el length="33" name="%12" offset="3051" path="%3"/>
    <linked-el length="29" name="%12" offset="1357" path="%3"/>
-   <linked-el length="30" name="%12" offset="689" path="%3"/>
    <linked-el length="33" name="%12" offset="4822" path="%3"/>
+   <linked-el length="30" name="%12" offset="689" path="%3"/>
    <linked-el length="29" name="%13" offset="4039" path="%14"/>
    <linked-el length="54" name="%13" offset="4328" path="%14"/>
    <linked-el length="19" name="%13" offset="4760" path="%14"/>
@@ -312,18 +312,18 @@
    <linked-el length="19" name="%15" offset="2186" path="%11"/>
    <linked-el length="30" name="%16" offset="2201" path="%3"/>
    <linked-el length="38" name="%17" offset="1058" path="%6"/>
-   <linked-el length="32" name="%18" offset="1442" path="%6"/>
    <linked-el length="28" name="%18" offset="544" path="%6"/>
+   <linked-el length="32" name="%18" offset="1442" path="%6"/>
    <linked-el length="27" name="%18" offset="2122" path="%6"/>
    <linked-el length="27" name="%18" offset="602" path="%6"/>
    <linked-el length="38" name="%18" offset="1058" path="%6"/>
    <linked-el length="29" name="%18" offset="1787" path="%6"/>
    <linked-el length="14" name="%19" offset="2077" path="%11"/>
    <linked-el length="37" name="%20" offset="5013" path="%3"/>
-   <linked-el length="26" name="%21" offset="4629" path="%3"/>
-   <linked-el length="90" name="%22" offset="2969" path="%9"/>
-   <linked-el length="29" name="%22" offset="941" path="%23"/>
-   <linked-el length="29" name="%22" offset="1412" path="%24"/>
+   <linked-el length="90" name="%21" offset="2969" path="%9"/>
+   <linked-el length="29" name="%21" offset="941" path="%22"/>
+   <linked-el length="29" name="%21" offset="1412" path="%23"/>
+   <linked-el length="26" name="%24" offset="4629" path="%3"/>
    <linked-el length="61" name="%25" offset="4246" path="%1"/>
    <linked-el length="61" name="%25" offset="5432" path="%14"/>
    <linked-el length="65" name="%25" offset="4156" path="%1"/>
@@ -346,20 +346,20 @@
    <linked-el length="57" name="%25" offset="3669" path="%9"/>
    <linked-el length="67" name="%25" offset="5806" path="%14"/>
    <linked-el length="61" name="%25" offset="3031" path="%26"/>
-   <linked-el length="67" name="%25" offset="3491" path="%9"/>
    <linked-el length="81" name="%25" offset="4332" path="%1"/>
-   <linked-el length="21" name="%28" offset="534" path="%23"/>
-   <linked-el length="21" name="%28" offset="1014" path="%24"/>
-   <linked-el length="28" name="%28" offset="1056" path="%24"/>
-   <linked-el length="28" name="%28" offset="576" path="%23"/>
+   <linked-el length="67" name="%25" offset="3491" path="%9"/>
+   <linked-el length="21" name="%28" offset="534" path="%22"/>
+   <linked-el length="21" name="%28" offset="1014" path="%23"/>
+   <linked-el length="28" name="%28" offset="1056" path="%23"/>
+   <linked-el length="28" name="%28" offset="576" path="%22"/>
    <linked-el length="20" name="%29" offset="408" path="%27"/>
-   <linked-el length="33" name="%30" offset="1993" path="%3"/>
-   <linked-el length="28" name="%31" offset="775" path="%3"/>
+   <linked-el length="28" name="%30" offset="775" path="%3"/>
+   <linked-el length="33" name="%31" offset="1993" path="%3"/>
    <linked-el length="54" name="%32" offset="4328" path="%14"/>
    <linked-el length="20" name="%32" offset="4459" path="%14"/>
    <linked-el length="19" name="%33" offset="2186" path="%11"/>
-   <linked-el length="14" name="%33" offset="2077" path="%11"/>
    <linked-el length="26" name="%33" offset="2018" path="%11"/>
+   <linked-el length="14" name="%33" offset="2077" path="%11"/>
    <linked-el length="19" name="%33" offset="2129" path="%11"/>
    <linked-el length="40" name="%34" offset="2792" path="%1"/>
    <linked-el length="42" name="%34" offset="3133" path="%1"/>
@@ -373,11 +373,11 @@
    <linked-el length="29" name="%37" offset="2839" path="%11"/>
    <linked-el length="33" name="%38" offset="4822" path="%3"/>
    <linked-el length="28" name="%39" offset="544" path="%6"/>
-   <linked-el length="37" name="%40" offset="5208" path="%3"/>
-   <linked-el length="36" name="%40" offset="3433" path="%3"/>
    <linked-el length="33" name="%40" offset="3051" path="%3"/>
-   <linked-el length="33" name="%40" offset="4822" path="%3"/>
+   <linked-el length="36" name="%40" offset="3433" path="%3"/>
+   <linked-el length="37" name="%40" offset="5208" path="%3"/>
    <linked-el length="33" name="%40" offset="520" path="%3"/>
+   <linked-el length="33" name="%40" offset="4822" path="%3"/>
    <linked-el length="37" name="%40" offset="5013" path="%3"/>
    <linked-el length="54" name="%41" offset="3859" path="%42"/>
    <linked-el length="22" name="%41" offset="3670" path="%42"/>
@@ -391,7 +391,7 @@
    <linked-el length="19" name="%48" offset="2129" path="%11"/>
    <linked-el length="17" name="%49" offset="4535" path="%14"/>
    <linked-el length="11" name="%49" offset="4594" path="%14"/>
-   <linked-el length="21" name="%50" offset="1620" path="%24"/>
+   <linked-el length="21" name="%50" offset="1620" path="%23"/>
    <linked-el length="33" name="%51" offset="4391" path="%3"/>
    <linked-el length="33" name="%52" offset="1772" path="%3"/>
    <linked-el length="20" name="%53" offset="2556" path="%11"/>
@@ -403,13 +403,13 @@
    <linked-el length="29" name="%57" offset="1139" path="%3"/>
    <linked-el length="27" name="%58" offset="4027" path="%3"/>
    <linked-el length="29" name="%59" offset="2594" path="%26"/>
-   <linked-el length="32" name="%60" offset="5444" path="%3"/>
-   <linked-el length="27" name="%61" offset="2122" path="%6"/>
-   <linked-el length="16" name="%62" offset="817" path="%23"/>
-   <linked-el length="16" name="%62" offset="1288" path="%24"/>
-   <linked-el length="26" name="%63" offset="4629" path="%3"/>
-   <linked-el length="24" name="%63" offset="4595" path="%3"/>
-   <linked-el length="31" name="%64" offset="3819" path="%3"/>
+   <linked-el length="27" name="%60" offset="2122" path="%6"/>
+   <linked-el length="32" name="%61" offset="5444" path="%3"/>
+   <linked-el length="16" name="%62" offset="817" path="%22"/>
+   <linked-el length="16" name="%62" offset="1288" path="%23"/>
+   <linked-el length="31" name="%63" offset="3819" path="%3"/>
+   <linked-el length="26" name="%64" offset="4629" path="%3"/>
+   <linked-el length="24" name="%64" offset="4595" path="%3"/>
    <linked-el length="54" name="%65" offset="3859" path="%42"/>
    <linked-el length="22" name="%65" offset="3670" path="%42"/>
    <linked-el length="61" name="%66" offset="4246" path="%1"/>
@@ -434,27 +434,27 @@
    <linked-el length="57" name="%66" offset="3669" path="%9"/>
    <linked-el length="67" name="%66" offset="5806" path="%14"/>
    <linked-el length="61" name="%66" offset="3031" path="%26"/>
-   <linked-el length="67" name="%66" offset="3491" path="%9"/>
    <linked-el length="81" name="%66" offset="4332" path="%1"/>
+   <linked-el length="67" name="%66" offset="3491" path="%9"/>
    <linked-el length="60" name="%67" offset="2708" path="%26"/>
    <linked-el length="25" name="%68" offset="3576" path="%3"/>
    <linked-el length="90" name="%69" offset="2969" path="%9"/>
-   <linked-el length="29" name="%69" offset="941" path="%23"/>
-   <linked-el length="29" name="%69" offset="1412" path="%24"/>
+   <linked-el length="29" name="%69" offset="941" path="%22"/>
+   <linked-el length="29" name="%69" offset="1412" path="%23"/>
    <linked-el length="23" name="%70" offset="2677" path="%11"/>
    <linked-el length="25" name="%71" offset="2916" path="%11"/>
-   <linked-el length="16" name="%72" offset="817" path="%23"/>
-   <linked-el length="11" name="%72" offset="1447" path="%24"/>
-   <linked-el length="11" name="%72" offset="976" path="%23"/>
-   <linked-el length="85" name="%72" offset="1828" path="%24"/>
-   <linked-el length="16" name="%72" offset="1288" path="%24"/>
-   <linked-el length="21" name="%72" offset="1620" path="%24"/>
+   <linked-el length="16" name="%72" offset="817" path="%22"/>
+   <linked-el length="11" name="%72" offset="1447" path="%23"/>
+   <linked-el length="11" name="%72" offset="976" path="%22"/>
+   <linked-el length="16" name="%72" offset="1288" path="%23"/>
+   <linked-el length="85" name="%72" offset="1828" path="%23"/>
+   <linked-el length="21" name="%72" offset="1620" path="%23"/>
    <linked-el length="35" name="%73" offset="4530" path="%3"/>
    <linked-el length="22" name="%74" offset="998" path="%3"/>
    <linked-el length="29" name="%74" offset="1139" path="%3"/>
    <linked-el length="60" name="%75" offset="2708" path="%26"/>
-   <linked-el length="42" name="%76" offset="2755" path="%11"/>
-   <linked-el length="21" name="%77" offset="2620" path="%11"/>
+   <linked-el length="21" name="%76" offset="2620" path="%11"/>
+   <linked-el length="42" name="%77" offset="2755" path="%11"/>
    <linked-el length="29" name="%78" offset="1787" path="%6"/>
    <linked-el length="30" name="%79" offset="2201" path="%3"/>
    <linked-el length="32" name="%79" offset="2241" path="%3"/>
@@ -464,54 +464,54 @@
    <linked-el length="33" name="%80" offset="1582" path="%1"/>
    <linked-el length="40" name="%80" offset="2792" path="%1"/>
    <linked-el length="32" name="%80" offset="1173" path="%1"/>
-   <linked-el length="42" name="%80" offset="3133" path="%1"/>
    <linked-el length="34" name="%80" offset="2376" path="%1"/>
+   <linked-el length="42" name="%80" offset="3133" path="%1"/>
    <linked-el length="32" name="%80" offset="3528" path="%1"/>
    <linked-el length="25" name="%80" offset="3847" path="%1"/>
    <linked-el length="25" name="%80" offset="493" path="%27"/>
-   <linked-el length="32" name="%81" offset="3528" path="%1"/>
+   <linked-el length="22" name="%81" offset="2226" path="%9"/>
+   <linked-el length="32" name="%81" offset="1442" path="%6"/>
+   <linked-el length="28" name="%81" offset="1056" path="%23"/>
+   <linked-el length="27" name="%81" offset="2122" path="%6"/>
+   <linked-el length="22" name="%81" offset="2406" path="%6"/>
+   <linked-el length="38" name="%81" offset="1058" path="%6"/>
+   <linked-el length="21" name="%81" offset="534" path="%22"/>
+   <linked-el length="28" name="%81" offset="544" path="%6"/>
+   <linked-el length="21" name="%81" offset="1014" path="%23"/>
+   <linked-el length="28" name="%81" offset="576" path="%22"/>
+   <linked-el length="27" name="%81" offset="651" path="%23"/>
+   <linked-el length="27" name="%81" offset="602" path="%6"/>
+   <linked-el length="20" name="%81" offset="408" path="%27"/>
+   <linked-el length="30" name="%81" offset="729" path="%23"/>
+   <linked-el length="29" name="%81" offset="1787" path="%6"/>
    <linked-el length="24" name="%82" offset="4595" path="%3"/>
-   <linked-el length="22" name="%83" offset="2226" path="%9"/>
-   <linked-el length="21" name="%83" offset="534" path="%23"/>
-   <linked-el length="32" name="%83" offset="1442" path="%6"/>
-   <linked-el length="28" name="%83" offset="544" path="%6"/>
-   <linked-el length="21" name="%83" offset="1014" path="%24"/>
-   <linked-el length="28" name="%83" offset="1056" path="%24"/>
-   <linked-el length="27" name="%83" offset="2122" path="%6"/>
-   <linked-el length="28" name="%83" offset="576" path="%23"/>
-   <linked-el length="22" name="%83" offset="2406" path="%6"/>
-   <linked-el length="27" name="%83" offset="651" path="%24"/>
-   <linked-el length="27" name="%83" offset="602" path="%6"/>
-   <linked-el length="38" name="%83" offset="1058" path="%6"/>
-   <linked-el length="20" name="%83" offset="408" path="%27"/>
-   <linked-el length="30" name="%83" offset="729" path="%24"/>
-   <linked-el length="29" name="%83" offset="1787" path="%6"/>
+   <linked-el length="32" name="%83" offset="3528" path="%1"/>
    <linked-el length="37" name="%84" offset="2821" path="%3"/>
    <linked-el length="30" name="%84" offset="1580" path="%3"/>
    <linked-el length="30" name="%84" offset="689" path="%3"/>
    <linked-el length="33" name="%84" offset="1772" path="%3"/>
    <linked-el length="41" name="%84" offset="3171" path="%3"/>
    <linked-el length="37" name="%85" offset="2821" path="%3"/>
-   <linked-el length="85" name="%86" offset="1828" path="%24"/>
-   <linked-el length="37" name="%87" offset="1955" path="%1"/>
-   <linked-el length="33" name="%87" offset="1582" path="%1"/>
-   <linked-el length="40" name="%87" offset="2792" path="%1"/>
-   <linked-el length="42" name="%87" offset="3133" path="%1"/>
-   <linked-el length="34" name="%87" offset="2376" path="%1"/>
-   <linked-el length="23" name="%88" offset="6590" path="%3"/>
-   <linked-el length="31" name="%89" offset="6066" path="%3"/>
+   <linked-el length="37" name="%86" offset="1955" path="%1"/>
+   <linked-el length="33" name="%86" offset="1582" path="%1"/>
+   <linked-el length="40" name="%86" offset="2792" path="%1"/>
+   <linked-el length="34" name="%86" offset="2376" path="%1"/>
+   <linked-el length="42" name="%86" offset="3133" path="%1"/>
+   <linked-el length="85" name="%87" offset="1828" path="%23"/>
+   <linked-el length="31" name="%88" offset="6066" path="%3"/>
+   <linked-el length="23" name="%89" offset="6590" path="%3"/>
    <linked-el length="37" name="%90" offset="1955" path="%1"/>
-   <linked-el length="27" name="%91" offset="651" path="%24"/>
+   <linked-el length="36" name="%91" offset="3433" path="%3"/>
    <linked-el length="26" name="%92" offset="2018" path="%11"/>
-   <linked-el length="36" name="%93" offset="3433" path="%3"/>
+   <linked-el length="27" name="%93" offset="651" path="%23"/>
    <linked-el length="25" name="%94" offset="6285" path="%3"/>
-   <linked-el length="29" name="%95" offset="2594" path="%26"/>
-   <linked-el length="37" name="%96" offset="5208" path="%3"/>
-   <linked-el length="40" name="%97" offset="2792" path="%1"/>
-   <linked-el length="23" name="%98" offset="2490" path="%3"/>
+   <linked-el length="37" name="%95" offset="5208" path="%3"/>
+   <linked-el length="29" name="%96" offset="2594" path="%26"/>
+   <linked-el length="23" name="%97" offset="2490" path="%3"/>
+   <linked-el length="40" name="%98" offset="2792" path="%1"/>
    <linked-el length="29" name="%99" offset="2839" path="%11"/>
-   <linked-el length="30" name="%100" offset="2732" path="%3"/>
-   <linked-el length="32" name="%101" offset="2241" path="%3"/>
+   <linked-el length="32" name="%100" offset="2241" path="%3"/>
+   <linked-el length="30" name="%101" offset="2732" path="%3"/>
   </el>
  </validation>
  <aliases>
@@ -521,9 +521,9 @@
   <alias path="treinoBean" value="%12"/>
   <alias path="jdbc.password" value="%15"/>
   <alias path="alunoBean.aluno" value="%18"/>
-  <alias path="contextoBean" value="%22"/>
+  <alias path="contextoBean" value="%21"/>
   <alias path="alunoBean.lista" value="%28"/>
-  <alias path="treinoBean.nivelTreinamento" value="%30"/>
+  <alias path="treinoBean.nivelTreinamento" value="%31"/>
   <alias path="testeBean.msg" value="%36"/>
   <alias path="alunoBean.aluno.codigo" value="%39"/>
   <alias path="hibernate" value="%37"/>
@@ -538,9 +538,9 @@
   <alias path="treino.nivelTreinamento" value="%57"/>
   <alias path="grupoMuscular.idGrupo" value="%58"/>
   <alias path="param" value="%59"/>
-  <alias path="alunoBean.aluno.email" value="%61"/>
+  <alias path="alunoBean.aluno.email" value="%60"/>
   <alias path="aluno.nome" value="%62"/>
-  <alias path="tipoExercicio" value="%63"/>
+  <alias path="tipoExercicio" value="%64"/>
   <alias path="meuManagedBean.nome" value="%65"/>
   <alias path="request.contextPath" value="%66"/>
   <alias path="SPRING_SECURITY_LAST_EXCEPTION.message" value="%67"/>
@@ -549,19 +549,19 @@
   <alias path="hibernate.hbm2ddl.auto" value="%71"/>
   <alias path="treinoBean.listaTipoExercicio" value="%73"/>
   <alias path="SPRING_SECURITY_LAST_EXCEPTION" value="%75"/>
-  <alias path="hibernate.current_session_context_class" value="%76"/>
+  <alias path="hibernate.current_session_context_class" value="%77"/>
   <alias path="alunoBean.aluno.celular" value="%78"/>
   <alias path="nivelTreinamento" value="%79"/>
   <alias path="personalBean" value="%80"/>
   <alias path="/PersonalAssist/WebContent/teste.xhtml" value="%14"/>
   <alias path="treinoBean.treino" value="%84"/>
   <alias path="treinoBean.treino.codigo" value="%85"/>
-  <alias path="treinoBean.editar" value="%88"/>
-  <alias path="treinoBean.listaExercicio" value="%89"/>
+  <alias path="treinoBean.listaExercicio" value="%88"/>
+  <alias path="treinoBean.editar" value="%89"/>
   <alias path="exercicio.descricao" value="%94"/>
-  <alias path="treinoBean.exercicio.observacao" value="%96"/>
-  <alias path="param.login_error" value="%95"/>
-  <alias path="personalBean.personal.usuario.email" value="%97"/>
+  <alias path="param.login_error" value="%96"/>
+  <alias path="treinoBean.exercicio.observacao" value="%95"/>
+  <alias path="personalBean.personal.usuario.email" value="%98"/>
   <alias path="/PersonalAssist/WebContent/resources/index.xhtml" value="%42"/>
   <alias path="personalBean.personal.celular" value="%0"/>
   <alias path="exercicio.tipoExercicio.nome" value="%4"/>
@@ -572,12 +572,12 @@
   <alias path="alunoBean.aluno.nome" value="%17"/>
   <alias path="jdbc.url" value="%19"/>
   <alias path="treinoBean.exercicio.repeticoes" value="%20"/>
-  <alias path="tipoExercicio.codigo" value="%21"/>
+  <alias path="tipoExercicio.codigo" value="%24"/>
   <alias path="request" value="%25"/>
   <alias path="alunoBean.novo" value="%29"/>
   <alias
    path="/PersonalAssist/WebContent/pages/cadastro/cadastroTreino.xhtml" value="%3"/>
-  <alias path="treinoBean.listaTreino" value="%31"/>
+  <alias path="treinoBean.listaTreino" value="%30"/>
   <alias path="testeBean.lista" value="%32"/>
   <alias path="treino.descricao" value="%35"/>
   <alias path="personalBean.personal.usuario" value="%34"/>
@@ -586,7 +586,7 @@
   <alias path="alunoBean.aluno.nascimento" value="%43"/>
   <alias path="/PersonalAssist/WebContent/index.xhtml" value="%27"/>
   <alias
-   path="/PersonalAssist/WebContent/pages/admin/listagemAlunos.xhtml" value="%24"/>
+   path="/PersonalAssist/WebContent/pages/admin/listagemAlunos.xhtml" value="%23"/>
   <alias path="listaJ" value="%47"/>
   <alias path="jdbc.username" value="%48"/>
   <alias path="listaI" value="%49"/>
@@ -596,94 +596,61 @@
   <alias path="treinoBean.treino.descricao" value="%52"/>
   <alias path="hibernate.dialect" value="%53"/>
   <alias path="alunoBean.salvar" value="%55"/>
-  <alias path="/PersonalAssist/WebContent/pages/admin/inicio.xhtml" value="%23"/>
+  <alias path="/PersonalAssist/WebContent/pages/admin/inicio.xhtml" value="%22"/>
   <alias
    path="/PersonalAssist/WebContent/pages/cadastro/cadastroPersonal.xhtml" value="%1"/>
   <alias
    path="/PersonalAssist/WebContent/pages/cadastro/cadastroAluno.xhtml" value="%6"/>
   <alias path="/PersonalAssist/WebContent/pages/login.xhtml" value="%26"/>
-  <alias path="treinoBean.salvarExercicio" value="%60"/>
-  <alias path="treinoBean.grupoMuscular" value="%64"/>
+  <alias path="treinoBean.salvarExercicio" value="%61"/>
+  <alias path="treinoBean.grupoMuscular" value="%63"/>
   <alias path="treinoBean.divisoes" value="%68"/>
   <alias path="aluno" value="%72"/>
   <alias path="treino" value="%74"/>
-  <alias path="hibernate.show_sql" value="%77"/>
-  <alias path="personalBean.confirmarSenha" value="%81"/>
+  <alias path="hibernate.show_sql" value="%76"/>
+  <alias path="alunoBean" value="%81"/>
   <alias path="tipoExercicio.nome" value="%82"/>
-  <alias path="alunoBean" value="%83"/>
-  <alias path="aluno.ativo" value="%86"/>
-  <alias path="personalBean.personal" value="%87"/>
+  <alias path="personalBean.confirmarSenha" value="%83"/>
+  <alias path="personalBean.personal" value="%86"/>
+  <alias path="aluno.ativo" value="%87"/>
   <alias path="personalBean.personal.nascimento" value="%90"/>
-  <alias path="alunoBean.nomePesquisa" value="%91"/>
+  <alias path="treinoBean.exercicio.descricao" value="%91"/>
   <alias path="jdbc.driverClassName" value="%92"/>
-  <alias path="treinoBean.exercicio.descricao" value="%93"/>
-  <alias path="treinoBean.salvar" value="%98"/>
+  <alias path="alunoBean.nomePesquisa" value="%93"/>
+  <alias path="treinoBean.salvar" value="%97"/>
   <alias path="hibernate.use_sql_comments" value="%99"/>
-  <alias path="nivelTreinamento.descricao" value="%101"/>
-  <alias path="treinoBean.novoExercicio" value="%100"/>
+  <alias path="treinoBean.novoExercicio" value="%101"/>
+  <alias path="nivelTreinamento.descricao" value="%100"/>
   <alias path="%99" value="hibernate.use_sql_comments"/>
-  <alias path="%98" value="treinoBean.salvar"/>
-  <alias path="%95" value="param.login_error"/>
+  <alias path="%98" value="personalBean.personal.usuario.email"/>
+  <alias path="%95" value="treinoBean.exercicio.observacao"/>
   <alias path="%94" value="exercicio.descricao"/>
-  <alias path="%71" value="hibernate.hbm2ddl.auto"/>
-  <alias path="%97" value="personalBean.personal.usuario.email"/>
-  <alias path="%70" value="hibernate.format_sql"/>
-  <alias path="%96" value="treinoBean.exercicio.observacao"/>
+  <alias path="%97" value="treinoBean.salvar"/>
+  <alias path="%96" value="param.login_error"/>
   <alias path="%26" value="/PersonalAssist/WebContent/pages/login.xhtml"/>
-  <alias path="%61" value="alunoBean.aluno.email"/>
   <alias path="%25" value="request"/>
-  <alias path="%62" value="aluno.nome"/>
   <alias path="%28" value="alunoBean.lista"/>
-  <alias path="%63" value="tipoExercicio"/>
-  <alias path="%64" value="treinoBean.grupoMuscular"/>
   <alias path="%27" value="/PersonalAssist/WebContent/index.xhtml"/>
-  <alias path="%65" value="meuManagedBean.nome"/>
   <alias path="%29" value="alunoBean.novo"/>
-  <alias path="%66" value="request.contextPath"/>
-  <alias path="%67" value="SPRING_SECURITY_LAST_EXCEPTION.message"/>
-  <alias path="%68" value="treinoBean.divisoes"/>
-  <alias path="%69" value="contextoBean.alunoAtivo"/>
   <alias path="%20" value="treinoBean.exercicio.repeticoes"/>
-  <alias path="%22" value="contextoBean"/>
-  <alias path="%21" value="tipoExercicio.codigo"/>
-  <alias path="%24" value="/PersonalAssist/WebContent/pages/admin/listagemAlunos.xhtml"/>
-  <alias path="%23" value="/PersonalAssist/WebContent/pages/admin/inicio.xhtml"/>
-  <alias path="%60" value="treinoBean.salvarExercicio"/>
-  <alias path="%52" value="treinoBean.treino.descricao"/>
+  <alias path="%22" value="/PersonalAssist/WebContent/pages/admin/inicio.xhtml"/>
+  <alias path="%21" value="contextoBean"/>
+  <alias path="%24" value="tipoExercicio.codigo"/>
+  <alias path="%23" value="/PersonalAssist/WebContent/pages/admin/listagemAlunos.xhtml"/>
   <alias path="%17" value="alunoBean.aluno.nome"/>
-  <alias path="%53" value="hibernate.dialect"/>
   <alias path="%16" value="nivelTreinamento.idNivel"/>
-  <alias path="%50" value="aluno.nascimento"/>
   <alias path="%15" value="jdbc.password"/>
-  <alias path="%51" value="treinoBean.codTipoExercicio"/>
   <alias path="%14" value="/PersonalAssist/WebContent/teste.xhtml"/>
-  <alias path="%56" value="personalBean.personal.usuario.senha"/>
-  <alias path="%57" value="treino.nivelTreinamento"/>
   <alias path="%19" value="jdbc.url"/>
-  <alias path="%54" value="exercicio"/>
-  <alias path="%55" value="alunoBean.salvar"/>
   <alias path="%18" value="alunoBean.aluno"/>
-  <alias path="%58" value="grupoMuscular.idGrupo"/>
-  <alias path="%59" value="param"/>
   <alias path="%13" value="testeBean"/>
   <alias path="%12" value="treinoBean"/>
   <alias path="%11" value="/PersonalAssist/resources/applicationContext.xml"/>
   <alias path="%10" value="hibernate.hbm2ddl"/>
-  <alias path="%101" value="nivelTreinamento.descricao"/>
-  <alias path="%100" value="treinoBean.novoExercicio"/>
-  <alias path="%91" value="alunoBean.nomePesquisa"/>
-  <alias path="%90" value="personalBean.personal.nascimento"/>
-  <alias path="%93" value="treinoBean.exercicio.descricao"/>
-  <alias path="%92" value="jdbc.driverClassName"/>
-  <alias path="%87" value="personalBean.personal"/>
-  <alias path="%88" value="treinoBean.editar"/>
-  <alias path="%89" value="treinoBean.listaExercicio"/>
-  <alias path="%83" value="alunoBean"/>
+  <alias path="%101" value="treinoBean.novoExercicio"/>
+  <alias path="%100" value="nivelTreinamento.descricao"/>
   <alias path="%48" value="jdbc.username"/>
   <alias path="%47" value="listaJ"/>
-  <alias path="%84" value="treinoBean.treino"/>
-  <alias path="%85" value="treinoBean.treino.codigo"/>
-  <alias path="%86" value="aluno.ativo"/>
   <alias path="%49" value="listaI"/>
   <alias path="%44" value="exercicio.tipoExercicio"/>
   <alias path="%43" value="alunoBean.aluno.nascimento"/>
@@ -692,51 +659,71 @@
   <alias path="%40" value="treinoBean.exercicio"/>
   <alias path="%42" value="/PersonalAssist/WebContent/resources/index.xhtml"/>
   <alias path="%41" value="meuManagedBean"/>
-  <alias path="%82" value="tipoExercicio.nome"/>
+  <alias path="%39" value="alunoBean.aluno.codigo"/>
+  <alias path="%38" value="treinoBean.exercicio.series"/>
+  <alias path="%37" value="hibernate"/>
+  <alias path="%36" value="testeBean.msg"/>
+  <alias path="%35" value="treino.descricao"/>
+  <alias path="%34" value="personalBean.personal.usuario"/>
+  <alias path="%33" value="jdbc"/>
+  <alias path="%32" value="testeBean.lista"/>
+  <alias path="%31" value="treinoBean.nivelTreinamento"/>
+  <alias path="%30" value="treinoBean.listaTreino"/>
+  <alias path="%71" value="hibernate.hbm2ddl.auto"/>
+  <alias path="%70" value="hibernate.format_sql"/>
+  <alias path="%61" value="treinoBean.salvarExercicio"/>
+  <alias path="%62" value="aluno.nome"/>
+  <alias path="%63" value="treinoBean.grupoMuscular"/>
+  <alias path="%64" value="tipoExercicio"/>
+  <alias path="%65" value="meuManagedBean.nome"/>
+  <alias path="%66" value="request.contextPath"/>
+  <alias path="%67" value="SPRING_SECURITY_LAST_EXCEPTION.message"/>
+  <alias path="%68" value="treinoBean.divisoes"/>
+  <alias path="%69" value="contextoBean.alunoAtivo"/>
+  <alias path="%60" value="alunoBean.aluno.email"/>
+  <alias path="%52" value="treinoBean.treino.descricao"/>
+  <alias path="%53" value="hibernate.dialect"/>
+  <alias path="%50" value="aluno.nascimento"/>
+  <alias path="%51" value="treinoBean.codTipoExercicio"/>
+  <alias path="%56" value="personalBean.personal.usuario.senha"/>
+  <alias path="%57" value="treino.nivelTreinamento"/>
+  <alias path="%54" value="exercicio"/>
+  <alias path="%55" value="alunoBean.salvar"/>
+  <alias path="%58" value="grupoMuscular.idGrupo"/>
+  <alias path="%59" value="param"/>
+  <alias path="%91" value="treinoBean.exercicio.descricao"/>
+  <alias path="%90" value="personalBean.personal.nascimento"/>
+  <alias path="%93" value="alunoBean.nomePesquisa"/>
+  <alias path="%92" value="jdbc.driverClassName"/>
+  <alias path="%87" value="aluno.ativo"/>
+  <alias path="%88" value="treinoBean.listaExercicio"/>
+  <alias path="%89" value="treinoBean.editar"/>
+  <alias path="%83" value="personalBean.confirmarSenha"/>
+  <alias path="%84" value="treinoBean.treino"/>
+  <alias path="%85" value="treinoBean.treino.codigo"/>
+  <alias path="%86" value="personalBean.personal"/>
   <alias path="%0" value="personalBean.personal.celular"/>
-  <alias path="%81" value="personalBean.confirmarSenha"/>
+  <alias path="%82" value="tipoExercicio.nome"/>
+  <alias path="%81" value="alunoBean"/>
   <alias path="%80" value="personalBean"/>
   <alias path="%4" value="exercicio.tipoExercicio.nome"/>
   <alias path="%3" value="/PersonalAssist/WebContent/pages/cadastro/cadastroTreino.xhtml"/>
   <alias path="%2" value="grupoMuscular"/>
   <alias path="%1" value="/PersonalAssist/WebContent/pages/cadastro/cadastroPersonal.xhtml"/>
-  <alias path="%7" value="personalBean.personal.nome"/>
   <alias path="%78" value="alunoBean.aluno.celular"/>
-  <alias path="%8" value="contextoBean.alunoAtivo.nome"/>
+  <alias path="%7" value="personalBean.personal.nome"/>
   <alias path="%79" value="nivelTreinamento"/>
+  <alias path="%8" value="contextoBean.alunoAtivo.nome"/>
   <alias path="%5" value="alunoBean.aluno.ativo"/>
-  <alias path="%76" value="hibernate.current_session_context_class"/>
-  <alias path="%77" value="hibernate.show_sql"/>
+  <alias path="%76" value="hibernate.show_sql"/>
+  <alias path="%77" value="hibernate.current_session_context_class"/>
   <alias path="%6" value="/PersonalAssist/WebContent/pages/cadastro/cadastroAluno.xhtml"/>
   <alias path="%74" value="treino"/>
-  <alias path="%39" value="alunoBean.aluno.codigo"/>
-  <alias path="%38" value="treinoBean.exercicio.series"/>
   <alias path="%75" value="SPRING_SECURITY_LAST_EXCEPTION"/>
-  <alias path="%72" value="aluno"/>
   <alias path="%9" value="/PersonalAssist/WebContent/templates/interna.xhtml"/>
-  <alias path="%37" value="hibernate"/>
-  <alias path="%36" value="testeBean.msg"/>
+  <alias path="%72" value="aluno"/>
   <alias path="%73" value="treinoBean.listaTipoExercicio"/>
-  <alias path="%35" value="treino.descricao"/>
-  <alias path="%34" value="personalBean.personal.usuario"/>
-  <alias path="%33" value="jdbc"/>
-  <alias path="%32" value="testeBean.lista"/>
-  <alias path="%31" value="treinoBean.listaTreino"/>
-  <alias path="%30" value="treinoBean.nivelTreinamento"/>
  </aliases>
  <includes/>
- <uris>
-  <uri value="http://java.sun.com/jsf/html">
-   <prefix>h</prefix>
-  </uri>
-  <uri value="http://primefaces.prime.com.tr/ui">
-   <prefix>p</prefix>
-  </uri>
-  <uri value="http://java.sun.com/jstl/core">
-   <prefix>c</prefix>
-  </uri>
-  <uri value="http://java.sun.com/jsf/core">
-   <prefix>f</prefix>
-  </uri>
- </uris>
+ <uris/>
 </kb-project>
