@@ -1,5 +1,6 @@
 package br.com.personalAssist.treino;
 
+import java.util.Collection;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -43,6 +44,11 @@ public class TreinoRN {
 
 	public Treino carregar(int codigo) {
 		return treinoDao.carregar(codigo);
+	}
+
+	public List<Treino> listar() {
+		
+		return treinoDao.listar();
 	}
 
 

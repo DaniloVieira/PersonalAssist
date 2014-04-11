@@ -40,7 +40,6 @@
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="br.com.personalAssist.exercicio.TipoExercicio"/>
 <fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
-<fullyQualifiedTypeName name="br.com.personalAssist.treino.TreinoDAO"/>
 <fullyQualifiedTypeName name="br.com.personalAssist.treino.Exercicio"/>
 <fullyQualifiedTypeName name="org.hibernate.Criteria"/>
 <fullyQualifiedTypeName name="br.com.personalAssist.tipoExercicio.TipoExercicioDAO"/>
@@ -57,7 +56,8 @@
 <fullyQualifiedTypeName name="br.com.personalAssist.enumeration.NivelTreinamento"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="com.sun.xml.internal.bind.v2.runtime.RuntimeUtil.ToStringAdapter"/>
-<fullyQualifiedTypeName name="br.com.personalAssist.exercicio.Exercicio"/>
-<fullyQualifiedTypeName name="br.com.personalAssist.treino.Treino"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="br.com.personalAssist.treino.TreinoDAO"/>
+<fullyQualifiedTypeName name="br.com.personalAssist.treino.Treino"/>
+<fullyQualifiedTypeName name="br.com.personalAssist.exercicio.Exercicio"/>
 </qualifiedTypeNameHistroy>

@@ -1,5 +1,0 @@
-package br.com.personalAssist.tipoExercicio;
-
-public interface TipoExercicioDAO {
-
-}

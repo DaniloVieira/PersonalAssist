@@ -131,7 +131,7 @@
                prefix="localhost_access_log." suffix=".txt" pattern="common" resolveHosts="false"/>
         -->
 
-      <Context docBase="C:\Users\Danilo\Documents\GitHub\gitWorkspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\Danilo\Documents\GitHub\gitWorkspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\PersonalAssist" path="/PersonalAssist" reloadable="true" source="org.eclipse.jst.jee.server:PersonalAssist">
+      <Context docBase="C:\Users\Danilo\Documents\GitHub\gitWorkspace\PersonalAssist\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\Danilo\Documents\GitHub\gitWorkspace\PersonalAssist\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\PersonalAssist" path="/PersonalAssist" reloadable="true" source="org.eclipse.jst.jee.server:PersonalAssist">
 	<!-- 
 			<Resource	name="jdbc/PersonalAssistDB" 
 				auth="Container" 

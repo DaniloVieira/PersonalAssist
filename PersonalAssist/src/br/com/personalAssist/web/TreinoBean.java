@@ -28,19 +28,19 @@ public class TreinoBean {
 	
 	@Autowired
 	private TreinoRN treinoRN;
-	private Treino treino = new Treino();
+	private Treino treino ;
 	private Exercicio exercicio ;
 	private Aluno alunoAtivo;
 	private char[] divisoes = {'A', 'B', 'C', 'D', 'E', 'F', 'G'};
 	private int codTipoExercicio;
 	private String grupoMuscular;
 	private String nivelTreinamento;
-	
+	private List<Treino> listaTreino ;
 	private List<Exercicio> listaExercicio = new ArrayList<Exercicio>();
 	private List<TipoExercicio> listaTipoExercicio;
 	
 	public String novo(){
-//		 treino = new Treino();		
+//		 treino = new Treino();				
 		 return "/pages/cadastro/cadastroTreino";
 	}
 	public String novoExercicio(){
@@ -48,10 +48,14 @@ public class TreinoBean {
 		
 		 return "";
 	}
+	public String novoTreino(){
+		treino = new Treino();
+		return "";
+	}
 	
 	public String finalizarCadstroExercicio(){
-		
-		return "/pages/cadastro/cadastroTreino";
+		exercicio = null;
+		return "";
 	}
 	
 	
@@ -66,6 +70,7 @@ public class TreinoBean {
 		exercicio.setTreino(treino);
 		treinoRN.salvarExercicio(exercicio, codTipoExercicio);
 		listaExercicio.add(exercicio);
+		exercicio = new Exercicio();
 		return "";
 	}
 	
@@ -101,7 +106,15 @@ public class TreinoBean {
 	public void setTreino(Treino treino) {
 		this.treino = treino;
 	}
+			
+	public List<Treino> getListaTreino() {
+		listaTreino = treinoRN.listar();
+		return listaTreino;
+	}
 	
+	public void setListaTreino(List<Treino> listaTreino) {
+		this.listaTreino = listaTreino;
+	}
 	
 	public List<Exercicio> getListaExercicio() {
 		return listaExercicio;
@@ -111,8 +124,6 @@ public class TreinoBean {
 		this.listaExercicio = listaExercicio;
 	}
 	
-	
-
 	public List<TipoExercicio> getListaTipoExercicio() {
 		return listaTipoExercicio;
 	}

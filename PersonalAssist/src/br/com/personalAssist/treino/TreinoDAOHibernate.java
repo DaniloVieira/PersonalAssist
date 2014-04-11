@@ -4,10 +4,12 @@ import java.util.List;
 
 import org.hibernate.Criteria;
 import org.hibernate.SessionFactory;
+import org.hibernate.criterion.Order;
 import org.hibernate.criterion.Restrictions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
+import br.com.personalAssist.aluno.Aluno;
 import br.com.personalAssist.personal.Personal;
 import br.com.personalAssist.tipoExercicio.TipoExercicio;
 
@@ -49,9 +51,10 @@ public class TreinoDAOHibernate implements TreinoDAO {
 	}
 
 	@Override
-	public List<Personal> listar() {
-		// TODO Auto-generated method stub
-		return null;
+	public List<Treino> listar() {
+		Criteria criteria = this.sessionFactory.getCurrentSession().createCriteria(Treino.class);
+		criteria.addOrder(Order.asc("descricao"));
+		return criteria.list();
 	}
 
 }

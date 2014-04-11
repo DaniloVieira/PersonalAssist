@@ -1,7 +1,0 @@
-package br.com.personalAssist.enumeration;
-
-public enum NivelTreinamento {
-	
-	INICIANTE (1 , "iniciante");
-
-}

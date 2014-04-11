@@ -13,7 +13,28 @@
 			<div class="container well panel panel-primary">
 				<fieldset>
 					<legend>Cadastro de Treino</legend>
-					<h:form>
+					<h:form rendered="#{treinoBean.treino == null}">
+					<div class="rolagem">
+						<h:dataTable value="#{treinoBean.listaTreino}" var="treino" styleClass="table table-striped table-bordered " headerClass="dataTableHeader"  >
+							<h:column>
+								<f:facet name="header">Descrição</f:facet>
+								<h:outputText value="#{treino.descricao}" />
+							</h:column>
+							<h:column>
+								<f:facet name="header">Nivel</f:facet>
+								<h:outputText value="#{treino.nivelTreinamento}" />
+ 							</h:column>
+						</h:dataTable>
+					</div>
+					<div class="btn-toolbar" role="toolbar">
+					<br />
+					<h:commandLink id="adicionarTeino" name="adicionarTeino" action="#{treinoBean.novoTreino()}" class="btn btn-primary btn-lg " value="Adicionar">
+							<span class="glyphicon glyphicon-plus"></span>
+					</h:commandLink>
+					</div>
+					</h:form>
+					<hr />
+					<h:form rendered="#{treinoBean.treino != null}">
 						<div class="control-group">
 							<label class="control-label" for="nome">Descrição</label>
 							<div class="controls">
@@ -26,6 +47,7 @@
 									<f:selectItems value="#{treinoBean.listaNivelTreinamento()}" var="nivelTreinamento" itemValue="#{nivelTreinamento.idNivel}" itemLabel="#{nivelTreinamento.descricao}" />
 								</h:selectOneMenu>
 							</div>
+							
 						</div>
 						
 							<br/>
@@ -34,7 +56,7 @@
 								<h:commandLink id="salvarTeino" name="salvar" action="#{treinoBean.salvar}" class="btn btn-primary btn-lg " value="Salvar">
 									<span class="glyphicon glyphicon-floppy-save"></span>
 								</h:commandLink>
-								<h:commandLink id="adicionarExercicio" name="adicionarExercicio" action="#{treinoBean.novoExercicio}" class="btn btn-primary btn-lg " value="Exercicio">
+								<h:commandLink id="adicionarExercicio" name="adicionarExercicio" action="#{treinoBean.novoExercicio}" class="btn btn-primary btn-lg " value="Exercicio" rendered="#{treinoBean.treino.codigo != null}">
 									<span class="glyphicon glyphicon-plus"></span>
 								</h:commandLink>
 							</div>
@@ -49,13 +71,13 @@
 		<div class="container well panel panel-primary" >
 			<fieldset>
 				<legend>#{treinoBean.treino}: Adicionar Exercicio</legend>
-				#{treinoBean.listaExercicio.size()}
+				
 				<h:form >
 					<div class="control-group">
 						<label class="control-label" for="selectDescricao">Treino</label>
 						<div class="controls">
 							<h:selectOneMenu  id="selectDescricao" value="#{treinoBean.exercicio.descricao}" class="input-lg">
-	   							<f:selectItem itemValue="" itemLabel="" />
+	   							<f:selectItem itemValue="" itemLabel=""  />
 	   							<f:selectItems value="#{treinoBean.divisoes}" />
 	   						</h:selectOneMenu>
 						</div>
@@ -93,9 +115,10 @@
 							<h:commandLink id="salvar" name="salvar" action="#{treinoBean.salvarExercicio}" class="btn btn-primary btn-lg " value="Salvar">
 								<span class="glyphicon glyphicon-floppy-save"></span>
 							</h:commandLink>
-							<h:commandLink id="finalizar" name="Finalizar" 	action="#{treinoBean.finalizarCadstroExercicio()}" class="btn btn-primary btn-lg " value="Finalizar">
+							
+							<h:link id="finalizar" name="Finalizar" 	action="#{treinoBean.finalizarCadstroExercicio()}" class="btn btn-primary btn-lg " value="Finalizar">
 								<span class="glyphicon glyphicon-new-window"></span>
-							</h:commandLink>
+							</h:link>
 						</div>
 					</div>
 				</h:form>
@@ -105,6 +128,7 @@
 		<div class="container well panel panel-primary">
 			<div class="panel-body">
 			<h:form>
+			<div class="rolagem">
 				<h:dataTable value="#{treinoBean.listaExercicio}" var="exercicio" 	styleClass="table table-striped table-bordered " headerClass="dataTableHeader">
 					<h:column>
 						<f:facet name="header">Treino</f:facet>
@@ -115,11 +139,11 @@
 						<h:commandLink>
 							<h:outputText value="#{exercicio.tipoExercicio.nome}" />
 							<f:ajax execute="@this" render=":formularioExercicio" />
-							<f:setPropertyActionListener target="#{treinoBean.editar}"
-								value="#{exercicio}" />
+							<f:setPropertyActionListener target="#{treinoBean.editar}"	value="#{exercicio}" />
 						</h:commandLink>
 					</h:column>
 				</h:dataTable>
+			</div>
 			</h:form>
 			</div>
 		</div>

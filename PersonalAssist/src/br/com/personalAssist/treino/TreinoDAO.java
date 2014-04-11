@@ -16,6 +16,6 @@ public interface TreinoDAO {
 
 	public Treino buscarPorLogin(String login);
 
-	public List<Personal> listar();
+	public List<Treino> listar();
 
 }
